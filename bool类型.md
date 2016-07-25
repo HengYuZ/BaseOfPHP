@@ -20,7 +20,8 @@
       - 空标记生成SimpleXml对象
 
      2.1.1 验证2.1的代码如下
-         ```$flag1 = false;
+         ```
+         $flag1 = false;
             var_dump($flag1);     // boolean false
             $flag2 = (boolean)0;
             var_dump($flag2);     //boolean false
