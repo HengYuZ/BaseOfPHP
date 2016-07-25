@@ -20,25 +20,25 @@
       - 空标记生成SimpleXml对象
 
      2.1.1 验证2.1的代码如下
-        `   $flag1 = false;
-                 var_dump($flag1);     // boolean false
-                 $flag2 = (boolean)0;
-                 var_dump($flag2);     //boolean false
-                 $flag3 = (boolean)0.0;
-                 var_dump($flag3);     //boolean false
-                 $flag4 = (boolean)'';
-                 var_dump($flag4);     //boolean false
-                 $flag5 = (boolean)array();
-                 var_dump($flag5);     //boolean false
-                 class foo{
-                 }
-                 $flag6 = (boolean)new foo();
-                 var_dump($flag6);     //boolean false
-                 $flag7 = (boolean)NULL;
-                 var_dump($flag7);     //boolean false
-                 $flag7;
-                 var_dump($flag7);    //boolean false`
-           
+         ```$flag1 = false;
+            var_dump($flag1);     // boolean false
+            $flag2 = (boolean)0;
+            var_dump($flag2);     //boolean false
+            $flag3 = (boolean)0.0;
+            var_dump($flag3);     //boolean false
+            $flag4 = (boolean)'';
+            var_dump($flag4);     //boolean false
+            $flag5 = (boolean)array();
+            var_dump($flag5);     //boolean false
+            class foo{
+            }
+            $flag6 = (boolean)new foo();
+            var_dump($flag6);     //boolean false
+            $flag7 = (boolean)NULL;
+            var_dump($flag7);     //boolean false
+            $flag7;
+            var_dump($flag7);    //boolean false
+        ```
     2.1.2  提示
     > -1 和其它非零值（不论正负）一样，被认为是 TRUE ！
 
