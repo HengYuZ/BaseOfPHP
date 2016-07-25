@@ -1,7 +1,7 @@
 #布尔类型
 1. 声明定义一个布尔值，使用关键字 FALSE(false) 和 TRUE(true)
 ######语法
-     `<?php
+     ` <?php
                  $flag1 = false;
                  $flag2 = true;
            ?>`
@@ -19,7 +19,7 @@
 
      2.1.1 验证2.1的代码如下
 
-        `$flag1 = false;
+        ` $flag1 = false;
                  var_dump($flag1);     // boolean false
                  $flag2 = (boolean)0;
                  var_dump($flag2);     //boolean false
