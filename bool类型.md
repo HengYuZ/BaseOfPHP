@@ -1,6 +1,8 @@
 #布尔类型
 1. 声明定义一个布尔值，使用关键字 FALSE(false) 和 TRUE(true)
+
 ######语法
+    
      ` <?php
                  $flag1 = false;
                  $flag2 = true;
