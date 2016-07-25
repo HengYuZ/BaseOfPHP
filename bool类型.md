@@ -32,7 +32,8 @@
                  $flag5 = (boolean)array();
                  var_dump($flag5);     //boolean false
                  class foo{
-
+                 `
+        `
                  }
                  $flag6 = (boolean)new foo();
                  var_dump($flag6);     //boolean false
